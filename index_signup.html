@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="stylec.css">
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
+  <title>University</title>
+</head>
+<body> 
+<form action="database.php" method="POST">
+    <div class="signupbox">
+        <h2>Sign Up</h2>
+        <h5>It's quick and easy .</h5>
+        <input type="text" placeholder="First name" name="fname">  
+        <input type="text" placeholder="Surname" name="sname"><br><br>
+        <input type="email" placeholder="Email address" name="email"><br><br>
+        <input type="password" placeholder="New password" name="password"><br><br>
+        <h5>Date of birth?</h5>
+        <input type="date"  name="date">
+        <h5>Gender?</h5>
+        <input type="radio"  name="gender" value="female">
+        <label for="Female">Female</label>
+        <input type="radio"  name="gender" value="male">
+        <label for="Male">Male</label> 
+        <input type="radio" name="gender"value="custom">
+        <label for="Custom">Custom</label><br><br>
+        <input type="text" placeholder="Country" name="country"> 
+        <input type="text" placeholder="City" name="city"><br><br>
+        <input type="text" placeholder="University name" name="university_name">
+        <input type="text" placeholder="Academic streaming" name="academic_streaming"><br><br>
+        <input type="file" placeholder="image" name="image"><br><br>
+        <center>
+        <button class="btn" type="submit" name="save">Sign Up</button>
+        </center>
+    </div>
+</form>
+</body>
+</html>
